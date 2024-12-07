@@ -1,0 +1,126 @@
+body, * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(255, 181, 173);
+    width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: aquamarine;
+    /* margin-top: 20px; */
+    font-size: 24px;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main {
+    background-color: rgb(255, 181, 173);
+}
+
+.aside {
+    background-color: aqua;
+    width: 410px;
+    vertical-align: top;
+}
+
+.aside h1 {
+    text-align: center;
+    margin-top: 290px;
+    margin-bottom: 290px;
+}
+
+.article {
+    background-color: salmon;
+    width: 910px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.article h1 {
+    text-align: center;
+}
+
+.aside, 
+.article {
+    display: inline-block;
+}
+
+.menu_horizontal {
+    background-color: white;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    box-shadow: 0 0 3px black;
+    margin-bottom: 200px;
+}
+
+.menu_horizontal li {
+    border: 1px solid gray;
+    border-radius: 0;
+    display: inline-block;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 0;
+}
+
+.menu_horizontal a {
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu_horizontal li:first-child  {
+    border-left: 0;
+}
+
+.menu_horizontal li:last-child  {
+    border-right: 0;
+}
+
+.gallery {
+    margin-top: 20px;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.gallery img {
+    width: 270px;
+    margin-right: 20px;
+}
+
+.gallery img:last-child {
+    margin-right: 0px;
+}
+
+.footer {
+    background-color: aquamarine;
+    /* margin-top: 20px; */
+    font-size: 24px;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
